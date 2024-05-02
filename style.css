@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0rem;
+    font-family: "Inter";
+    background-color: #FFFF;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+#titulomenusuperior{
+    background-color: #303030;
+    font-size: 7.2rem;
+    font-weight: 600;
+}
+
+#subtitulo{
+    background-color: #303030;
+    font-size: 2rem;
+    margin-top: 2.3rem;
+    color: #FFFF;
+}
+
+#menusuperior{
+    height: 47.5rem;
+    background-color: #303030;
+    font-size: 4.8rem;
+    color: #FFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 6rem;
+
+}
+
+#menuinformacional{
+    display: flex;
+    justify-content: space-around;      
+    text-align: left;
+    background-color: #F9F9F9;
+    height: 30rem;
+    align-items: center;
+}
+
+.menuiformativo{
+    color: #303030;
+    font-size: 4rem;
+    background-color: #F9F9F9;
+}
+
+.description{
+    font-size: 2.4rem;
+    background-color: #F9F9F9;
+}
+
+.number{
+    font-size: 4rem;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    background-color: #F9F9F9;
+    font-weight: 600;
+}
+
+#secaoimg{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 8.2rem;
+}
+
+#titleimg{
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+#Textimg{
+    font-size: 2.4rem;
+}
+
+#form{
+    background-color: #303030;
+    text-align: center;
+}
+
+#titleform{
+    color: #FFFF;
+    background-color: #303030;
+    text-align: center;
+    font-size: 3.2rem;
+    padding-top: 8.7rem;
+}
+
+button{
+    background-color: #C07212;
+    border: 0rem;
+    color: #FFFF;
+    height: 7.4rem;
+    width: 28.6rem;
+    font-size: 3rem;
+    border-radius: 1rem;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #c78738;
+    color: white;
+    box-shadow: 0rem 1.5rem 2rem #1a0e01;
+    transform: translateY(-.7rem);
+}
+
+input{
+    border-radius: .7rem;
+    border: 0rem;
+    height: 7.2rem;
+    width: 50rem;
+    font-family: "Rakkas", serif;
+    font-size: 2.3rem;
+    border: 0rem;
+    font-weight: bolder;
+    margin: 6.2rem;
+    padding-left: 3rem;
+}
