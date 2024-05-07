@@ -1,4 +1,4 @@
-# Arquitetura-Desafio-1-
+# Arquitetura-Dnc
 Este é o primeiro desafio do ciclo base, Desafio numero 1!
 
 Link do site disponibilizado: https://arqdnc.netlify.app
